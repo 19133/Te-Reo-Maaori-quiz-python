@@ -1,1 +1,1 @@
-from import *
+from difficulty1 import *
