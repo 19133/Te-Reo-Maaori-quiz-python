@@ -1,3 +1,5 @@
+score = 0
+
 # red question function
 def quiz_question(question):
   valid=False
@@ -32,6 +34,7 @@ qna_whero = quiz_question ("What’s red in Te Reo Maaori?\n")
 
 if qna_whero == "whero":
   print("Correct")
+  score += 1
   print()
 
 else:
@@ -43,6 +46,7 @@ qna_awa = quiz_question2 ("What’s ocean in Te Reo Maaori?\n")
 
 if qna_awa == "moana":
   print("Correct")
+  score += 1
   print()
 
 else:
