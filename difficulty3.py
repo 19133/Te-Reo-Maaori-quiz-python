@@ -1,3 +1,5 @@
+import time
+
 
 # user difficulty function
 def Chosen_difficulty (question):
@@ -17,6 +19,13 @@ def Chosen_difficulty (question):
       difficulty_response = "hard"
       return difficulty_response      
 
+  
+    elif difficulty_response == "xxx":
+      print("Thanks for playing the Te Reo Maaori quiz")
+      print("We hope to see you again")
+      time.sleep(2)
+      exit()   
+
     else:
       print("Please choose easy, medium or hard") 
       print("Or type xxx to quit") 
@@ -33,14 +42,20 @@ if difficulty == "easy":
   print()
 
 # if medium, the program will print medium difficulty questions
-if difficulty == "medium":
+elif difficulty == "medium":
   print("you will be playing the quiz on the medium difficulty")  
 
 # if hard, the program will print hard difficulty questions
-if difficulty == "hard":
+elif difficulty == "hard":
   print("you will be playing the quiz on the hard difficulty")
   print()
+
+elif difficulty == "xxx":
+  print ("Thanks for playing the Te Reo Maaori Quiz")
+  print ("We hope to see you again")
+
+
 # else, user is asked to type either easy, madium, or hard. 
 else:
   print("Please choose easy, medium, or hard")
-  print()
+  print("Or type xxx to quit")
