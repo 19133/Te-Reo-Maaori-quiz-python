@@ -27,19 +27,20 @@ def Chosen_difficulty (question):
 # asks user if they would like to play on easy, medium, or hard
 difficulty = Chosen_difficulty ("What’s red in Te Reo Maaori?\n")
 
-# if easy, the program will print easy difficulty questions
+# if easy, the program will print easy difficulty questions (Haven't made the questions yet)
 if difficulty == "easy":
   print("you will be playing the quiz on the easy difficulty")
   print()
 
-# if medium, the program will print medium difficulty questions
+# if medium, the program will print medium difficulty questions (Haven't made the questions yet)
 if difficulty == "medium":
   print("you will be playing the quiz on the medium difficulty")  
 
-# if hard, the program will print hard difficulty questions
+# if hard, the program will print hard difficulty questions (Haven't made the questions yet)
 if difficulty == "hard":
   print("you will be playing the quiz on the hard difficulty")
   print()
+  
 # else, user is asked to type either easy, madium, or hard. 
 else:
   print("Please choose easy, medium, or hard")
